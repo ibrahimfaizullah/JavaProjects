@@ -1,0 +1,29 @@
+Q1:
+
+Potential attributes:
+
+Student name (String)
+Student surname (String)
+Student number (String)
+Student age (int)
+Enrolled courses (list of courses)
+Grades (list of grades)
+is in co-op program? (boolean)
+
+Potential methods (methods are self-explanatory by name).
+
+getName, getSurname, getStudentNumber, getCoursesCurrentlyEnrolledIn, getGPA, setName, setSurname
+
+Q2
+
+Which of the following attribute modifiers allows subclasses to have access to the attribute itself?
+
+a) private
+b) public
+c) protected
+
+Answer: c
+
+a is incorrect since private restricts access to any class BUT the class itself
+b (public) does allow subclasses to access the attribute, however so can every other class whether they extend it or not
+c is the right answer, more specific to subclasses than b.
